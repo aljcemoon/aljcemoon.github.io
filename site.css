@@ -1,0 +1,17 @@
+html, body {
+  height: 100%;
+  margin: 0;
+  position: relative;  /* Needed for absolute positioning of children */
+}
+
+@keyframes blink {
+  0% { opacity: 1; }
+  50% { opacity: 0; }
+  100% { opacity: 100%; }
+}
+
+html, body {
+  height: 100%;
+  margin: 0;
+  position: relative;  /* Needed for absolute positioning of children */
+}
